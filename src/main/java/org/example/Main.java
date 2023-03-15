@@ -18,7 +18,7 @@ public class Main {
 
         boolean isValid = mernis.validation(user1.getFirstName(), user1.getLastName(), user1.getBirthDate(), user1.getNationalityId());
         if(isValid){
-            System.out.println("User validated");
+            System.out.println("User validatedd");
         }else{
             System.out.println("User cannot validated");
         }
