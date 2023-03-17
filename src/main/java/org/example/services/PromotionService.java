@@ -1,4 +1,6 @@
-package org.example;
+package org.example.services;
+
+import org.example.entities.Promotions;
 
 public interface PromotionService {
 

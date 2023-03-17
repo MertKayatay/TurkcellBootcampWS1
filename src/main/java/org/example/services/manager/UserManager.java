@@ -1,6 +1,9 @@
-package org.example;
+package org.example.services.manager;
 
-public class UserManager implements UserService{
+import org.example.entities.User;
+import org.example.services.UserService;
+
+public class UserManager implements UserService {
 
     @Override
     public void add(User user) {

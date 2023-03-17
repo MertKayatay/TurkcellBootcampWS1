@@ -1,5 +1,12 @@
 package org.example;
 
+import org.example.core.utils.EDevlet;
+import org.example.entities.Games;
+import org.example.entities.Promotions;
+import org.example.entities.User;
+import org.example.services.manager.GamesManager;
+import org.example.services.manager.UserManager;
+
 public class Main {
     public static void main(String[] args) {
         EDevlet mernis = new EDevlet();

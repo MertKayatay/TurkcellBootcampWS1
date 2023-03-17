@@ -1,8 +1,6 @@
-package org.example;
+package org.example.core.utils;
 
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
 public class EDevlet {
     private String name;

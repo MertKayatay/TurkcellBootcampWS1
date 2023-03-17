@@ -1,4 +1,9 @@
-package org.example;
+package org.example.services.manager;
+
+import org.example.entities.Games;
+import org.example.entities.Promotions;
+import org.example.entities.User;
+import org.example.services.GamesService;
 
 public class GamesManager implements GamesService {
 

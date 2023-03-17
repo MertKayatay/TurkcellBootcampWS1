@@ -1,4 +1,8 @@
-package org.example;
+package org.example.services;
+
+import org.example.entities.Games;
+import org.example.entities.Promotions;
+import org.example.entities.User;
 
 public interface GamesService {
     public void add(Games games);

@@ -1,8 +1,6 @@
-package org.example;
+package org.example.entities;
 
-import java.util.Date;
-
-public class User extends Entity{
+public class User extends Entity {
     private String FirstName;
     private String LastName;
     private String birthDate;

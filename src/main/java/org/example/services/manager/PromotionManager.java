@@ -1,6 +1,9 @@
-package org.example;
+package org.example.services.manager;
 
-public class PromotionManager implements PromotionService{
+import org.example.entities.Promotions;
+import org.example.services.PromotionService;
+
+public class PromotionManager implements PromotionService {
 
     public void add(Promotions promotions){
         System.out.println(promotions.getPromotionDescription() + " Added");
