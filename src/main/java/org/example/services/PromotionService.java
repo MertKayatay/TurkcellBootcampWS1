@@ -1,10 +1,11 @@
 package org.example.services;
 
+import org.example.entities.Games;
 import org.example.entities.Promotions;
 
 public interface PromotionService {
 
-    public void add(Promotions promotions);
-    public void delete(Promotions promotions);
-    public void update(Promotions promotions);
+    public void add(Games games, Promotions promotions);
+    public void delete(Games games, Promotions promotions);
+    public void update(Games games, Promotions promotions);
 }

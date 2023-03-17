@@ -1,4 +1,6 @@
-package org.example.core.utils;
+package org.example.utils;
+
+import org.example.entities.User;
 
 import java.util.ArrayList;
 
@@ -35,20 +37,14 @@ public class EDevlet {
         }
     }
 
-    public boolean validation(String firstName, String surName, String birthDate, String nationalityId) {
-
+    public boolean validate(User user1) {
         for (EDevlet eDevlet : mernis) {
-            if (eDevlet.getName() == firstName && eDevlet.getSurName() == surName &&  eDevlet.getBirthDate() == birthDate &&  eDevlet.getNationalityId() == nationalityId) {
-
+            if (user1.getFirstName().equals(eDevlet.getName()) && user1.getLastName().equals(eDevlet.getSurName()) && user1.getBirthDate().equals(eDevlet.getBirthDate()) && user1.getNationalityId().equals(eDevlet.getNationalityId())) {
                 return true;
-
             }
         }
         return false;
-
     }
-
-
 
     public String getName() {
         return name;

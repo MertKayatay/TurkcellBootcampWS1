@@ -16,14 +16,17 @@ public class Promotions {
 
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public String getPromotionDescription() {
+
         return promotionDescription;
     }
 
@@ -32,10 +35,12 @@ public class Promotions {
     }
 
     public Double getDiscountRate() {
+
         return discountRate;
     }
 
     public void setDiscountRate(Double discountRate) {
+
         this.discountRate = discountRate;
     }
 }

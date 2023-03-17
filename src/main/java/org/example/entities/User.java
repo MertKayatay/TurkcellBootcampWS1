@@ -19,34 +19,42 @@ public class User extends Entity {
     }
 
     public String getFirstName() {
+
         return FirstName;
     }
 
     public void setFirstName(String firstName) {
+
         FirstName = firstName;
     }
 
     public String getLastName() {
+
         return LastName;
     }
 
     public void setLastName(String lastName) {
+
         LastName = lastName;
     }
 
     public String getBirthDate() {
+
         return birthDate;
     }
 
     public void setBirthDate(String birthDate) {
+
         this.birthDate = birthDate;
     }
 
     public String getNationalityId() {
+
         return nationalityId;
     }
 
     public void setNationalityId(String nationalityId) {
+
         this.nationalityId = nationalityId;
     }
 }
